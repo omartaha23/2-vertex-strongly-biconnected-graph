@@ -14,3 +14,14 @@ References
 5.Raed Jaberi, Minimum 2-Vertex Strongly Biconnected Spanning Directed Subgraph Problem Discrete Mathematics Letters, 40–43, Volume 7(2021) DOI: 10.47443/dml.2021.0024
 6.Stanford Large Network Dataset Collection, https://snap.stanford.edu/data/index.html
 ### Group Members:
+#### عمر زكي طه 6236
+#### يزن اليوسف 6228
+#### كريم عبود 6550
+#### محمد سليم كوبش 6493
+#### محمد اسكندر 6293
+#### رهام عيسى 6459
+#### تالة نكارة 6286
+#### أسعد خيربك 6213
+#### رواد نمور 6196
+#### لجين حمد 6230
+#### حلا خليفة 5929
