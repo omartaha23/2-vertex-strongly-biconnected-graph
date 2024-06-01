@@ -1,11 +1,10 @@
-//------------------Saleem & Omar--------------------
+//------------------Mohammad Saleem Kobesh & Omar Taha--------------------
 #include <fstream>
 #include <iostream>
 #include <vector>
 #include <stack>
 #include <math.h>
 using namespace std;
-
 class Graph
 {
 public:
@@ -36,7 +35,7 @@ public:
         }
     }
 
-    //---------------------Hala----------------------
+    //---------------------Hala Khalefa----------------------
     void convert_to_undirected()
     {
         for (int i = 0; i < adj.size(); i++)
@@ -49,7 +48,7 @@ public:
     }
 };
 
-//-----------------------Omar-----------------------------
+//-----------------------Omar Taha---------------------------
 
 void gabow_dfs(const Graph& G , int v , vector<char>& state , int dfsCounter ,
 vector<int>& dfsNum , stack<int>& Ostack , stack<int>& Rstack , vector<int>& comp)
@@ -87,7 +86,7 @@ vector<int>& dfsNum , stack<int>& Ostack , stack<int>& Rstack , vector<int>& com
  }
  }
 
-//------------------Kareem & Yazan------------------------
+//------------------Kareem Aboud & Yazan Alyousef------------------------
 
 void merge(vector<int> &A, int p, int q, int r) {
  int nl = q - p + 1;
@@ -139,7 +138,7 @@ void merge_sort(vector<int> &A, int p, int r) {
  merge(A, p, q, r);
 }
 
-//------------------Mohamnad--------------------
+//------------------Mohamnad Iskandar--------------------
 
 int MaxNum(const vector<int>& B)
 {
@@ -159,7 +158,7 @@ int MaxNum(const vector<int>& B)
  return maxIndex;
 }
 
-//---------------------Omar & Kareem--------------------------
+//---------------------Omar Taha & Kareem Aboud--------------------------
 
 void Not_Strongly_Connected(vector <int> B,const Graph & G){
 bool Cheriyan_Mehlhorn_Gabow(const Graph & G);
@@ -199,7 +198,7 @@ for(int i=0;i<G.adj.size();i++)
  Cheriyan_Mehlhorn_Gabow(G);
 }
 
-//---------------------Rawad & Lujain--------------------------
+//---------------------Rawad Namour & Lujain Hamad--------------------------
 
 bool Cheriyan_Mehlhorn_Gabow(const Graph & G)
 {
@@ -214,7 +213,7 @@ bool Cheriyan_Mehlhorn_Gabow(const Graph & G)
  {
  if (state.at(i)=='N')
  {
- gabow_dfs(G,v,state,dfsCounter,dfsNum,Ostack,Rstack,comp);//**Omar**
+ gabow_dfs(G,v,state,dfsCounter,dfsNum,Ostack,Rstack,comp);//**Omar Taha**
  }
  }
  bool t= false;
@@ -231,12 +230,12 @@ bool Cheriyan_Mehlhorn_Gabow(const Graph & G)
     {
         cout<<"the graph isn't strongly connected so we will take the maximum SCC"<<endl;
 
- Not_Strongly_Connected(comp,G);//**Kareem**
+ Not_Strongly_Connected(comp,G);//**Kareem Aboud**
  return t;
     }
 }
 
-//---------------------Riham--------------------------
+//---------------------Riham Eisa--------------------------
 
  void jens_dfs(int u, vector<bool>& visited)
  {
@@ -250,7 +249,7 @@ bool Cheriyan_Mehlhorn_Gabow(const Graph & G)
     }
 }
 
-//---------------------Tala--------------------------
+//---------------------Tala Nakkara--------------------------
 
 bool jens_schmidt(Graph & G)
 {
@@ -280,7 +279,7 @@ bool jens_schmidt(Graph & G)
     return true;
 }
 
-//---------------------Asaad--------------------------
+//---------------------Asaad Kherbek--------------------------
 
 bool strongly_biconnected(Graph G)
 {
